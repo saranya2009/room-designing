@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Room Design</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+
+        <!--Camera-->
+        <a-entity position="0 0 25">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <!-- Room 1-->
+        <!-- walls and Floor-->
+        <a-plane position="0 -10 -4" rotation="-90 0 0" width="40" height="43" src='https://media.istockphoto.com/photos/seamless-wood-floor-texture-hardwood-floor-texture-picture-id645858422?b=1&k=20&m=645858422&s=170667a&w=0&h=e-3ih4dhufBaP944cecBVTx343UzmOTlFYToOe3SHY8=' ></a-plane>
+        <a-plane position="0 10 -4" rotation="90 0 0" width="40" height="43"
+        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL2WFEbU8bifIKOgqBSBB443vea2aE4BGzUw&usqp=CAU'></a-plane>
+        <a-plane position="0 0 -20" rotation="0 0 0" width="42" height="21"
+        src='https://rukminim1.flixcart.com/image/416/416/kk5rgy80/wallpaper/3/z/i/40-325-wallpaper-3d-05-all-decorative-design-original-imafzk9n3wayxtxb.jpeg?q=70' ></a-plane>
+        <a-plane position="20 0 0" rotation="0 -90 0" width="35.5" height="20" 
+        src='https://rukminim1.flixcart.com/image/416/416/kk5rgy80/wallpaper/3/z/i/40-325-wallpaper-3d-05-all-decorative-design-original-imafzk9n3wayxtxb.jpeg?q=70' ></a-plane>
+        <a-plane position="-20 0 0" rotation="0 90 0" width="35.5" height="20" 
+        src='https://rukminim1.flixcart.com/image/416/416/kk5rgy80/wallpaper/3/z/i/40-325-wallpaper-3d-05-all-decorative-design-original-imafzk9n3wayxtxb.jpeg?q=70'></a-plane>
+
+        <!-- Carpet -->
+        <a-plane  position="0 -8 9" rotation="-90 0 0" width="15" height="18" src='https://5.imimg.com/data5/IB/JB/FQ/SELLER-3189780/carpet-flooring-service-500x500.jpg'> </a-plane>
+
+        <!--Sofa 1-->
+        <a-box position="5 -7 8" rotation="90 0 90" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeWpQjVYYd5xEy6I-llh4U_98MPFYfjS-mQg&usqp=CAU' height="5" width="18" depth=3.5 ></a-box>
+        <a-box position='9 -5 8' rotation='0 90 0' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeWpQjVYYd5xEy6I-llh4U_98MPFYfjS-mQg&usqp=CAU' height='7' width='17' depth='3'></a-box>
+
+        <!--TV-->
+        <a-box
+        src='https://ntvb.tmsimg.com/assets/p17710222_b_h8_aa.jpg?w=960&h=540'
+        width="3.5"
+        height="2.5"
+        position="-5 0.8 19"
+        rotation="0 90 0"
+        depth="0.2"
+      >
+
+      <!--Lamp - 1-->
+      
+      <a-cylinder
+      color='#471e08'
+       height="4"
+       radius="0.2"
+       rotation="0 0 0"
+       position="0.2 -6 -4"
+     ></a-cylinder>
+
+     <a-cylinder
+     color='#ffea2e'
+      height="1.5"
+      radius="0.8"
+      rotation="0 0 0"
+      position="0.2 -3 -4"
+    ></a-cylinder>
+
+    <!--photo-->
+     <a-box position="15.5 0.5 4.5" rotation="90 0 90"  height="12" width="9" depth='5' 
+     src="https://cdn1.byjus.com/wp-content/uploads/2019/09/my-family-essay-for-class-1.jpeg"
+     ></a-box>
+    </a-scene>
+</body>
+
+</html>
